@@ -1,6 +1,7 @@
 Простейшее решение следующего тестового задания на языке C++
 
 Текст задания:
+
 Jose set up a circular poker table for his friends so that each of the seats at the table has the same number of poker chips.
 But when Jose wasn’t looking, someone rearranged all of the chips so that they are no longer evenly distributed!
 Now Jose needs to redistribute the chips so that every seat has the same number before his friends arrive.
