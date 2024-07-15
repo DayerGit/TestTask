@@ -64,14 +64,14 @@ int main(void) {
     unsigned int count = 0;
 
     setlocale(LC_ALL, "RU");
-    printf("Введите количество игроков: "); scanf_s("%i", &count);
+    printf("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РёРіСЂРѕРєРѕРІ: "); scanf_s("%i", &count);
     unsigned int* nums = (unsigned int*)calloc(count, sizeof(unsigned int));
 
     for (unsigned int i = 0; i < count; i++) {
-        printf("Введите количество карт у игрока номер %i: ", i+1); scanf_s("%i", &nums[i]);
+        printf("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєР°СЂС‚ Сѓ РёРіСЂРѕРєР° РЅРѕРјРµСЂ %i: ", i+1); scanf_s("%i", &nums[i]);
     }
 
-    printf("Выполнено %i ходов\n", Solution(nums, count));
+    printf("Р’С‹РїРѕР»РЅРµРЅРѕ %i С…РѕРґРѕРІ\n", Solution(nums, count));
 
-	return 0;
+    return 0;
 }
